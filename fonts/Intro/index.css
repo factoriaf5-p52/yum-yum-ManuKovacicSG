@@ -66,7 +66,11 @@ main {
     padding: 10px;
 }
 
-.white-box-form {}
+.white-box-form {background-color: antiquewhite;
+                width: fit-content;
+                padding: 5px;
+                border-radius: 5px;
+}
 
 #findafoodbutton {
     margin-top: 2em;
