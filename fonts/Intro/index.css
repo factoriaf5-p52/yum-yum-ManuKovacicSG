@@ -66,11 +66,16 @@ main {
     padding: 10px;
 }
 
-.white-box-form {background-color: antiquewhite;
+.white-box-form {background-color: white;
                 width: fit-content;
                 padding: 5px;
                 border-radius: 5px;
 }
+
+#pin-logo {filter: invert(62%) sepia(68%) saturate(3274%) hue-rotate(332deg) brightness(101%) contrast(96%);    
+}
+
+#bbq-logo {filter: invert(62%) sepia(68%) saturate(3274%) hue-rotate(332deg) brightness(101%) contrast(96%);}
 
 #findafoodbutton {
     margin-top: 2em;
@@ -87,7 +92,7 @@ main {
 /*green box ends*/
 
 /*How It Works*/
-#how-it-works {
+#how-it-works-title {
     color: #fa7344;
 }
 
