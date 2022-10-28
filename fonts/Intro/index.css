@@ -1,14 +1,110 @@
 @font-face {
     font-family: 'Intro';
     src: url('intro-regular-webfont.woff2') format('woff2'),
-         url('intro-regular-webfont.woff') format('woff');
+        url('intro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Intro';
     src: url('intro-black-webfont.woff2') format('woff2'),
-         url('intro-black-webfont.woff') format('woff');
+        url('intro-black-webfont.woff') format('woff');
     font-weight: 900;
     font-style: normal;
+}
+
+
+
+html {
+    max-width: 286px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*header "YumYum starts here*/
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.container-logo {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.logocaption {
+    color: grey;
+}
+
+.container-buttons {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+/*Header ending*/
+
+#greypic {
+    margin: 0%;
+}
+
+main {
+    width: 286px;
+}
+
+/*Green box start*/
+.green-box {
+    background-image: linear-gradient(#c0da39, #74cc52);
+    font-family: intro;
+    color: white;
+    padding: 10px;
+}
+
+.white-box-form {}
+
+#findafoodbutton {
+    margin-top: 2em;
+    background-color: #fa7344;
+    border-radius: 5px;
+    border: 0cm;
+    color: aliceblue;
+    font-weight: 900;
+    font: size 4em;
+    ;
+    padding: 15px;
+}
+
+/*green box ends*/
+
+/*How It Works*/
+#how-it-works {
+    color: #fa7344;
+}
+
+.instrucciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logos {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.textitos {
+    text-align: left;
+}
+
+/*Dishes section*/
+#dishes-title {
+    color: #fa7344;
 }
