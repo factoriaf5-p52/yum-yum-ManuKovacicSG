@@ -17,7 +17,7 @@
 
 
 html {
-    min-width:min-content;
+    min-width: min-content;
 }
 
 body {
@@ -49,11 +49,11 @@ body {
 }
 
 #menu {
-    filter: invert(53%) sepia(0%) saturate(0%) hue-rotate(255deg) brightness(96%) contrast(85%);    
+    filter: invert(53%) sepia(0%) saturate(0%) hue-rotate(255deg) brightness(96%) contrast(85%);
 }
 
 #cartlogo {
-    filter: invert(53%) sepia(0%) saturate(0%) hue-rotate(255deg) brightness(96%) contrast(85%);    
+    filter: invert(53%) sepia(0%) saturate(0%) hue-rotate(255deg) brightness(96%) contrast(85%);
 }
 
 /*Header ending*/
@@ -70,23 +70,37 @@ main {
     padding: 10px;
 }
 
+#order-title {
+    font-size: 2.3rem;
+}
+
 .white-box-form {
     background-color: white;
-    width: fit-content;
-    padding: 5px;
+    margin: auto;
+    height: auto;
+    padding: 4px;
     border-radius: 5px;
+    text-align: center;
+    color: #808080;
+    font-family: Lato;
 }
 
 #pin-logo {
     filter: invert(62%) sepia(68%) saturate(3274%) hue-rotate(332deg) brightness(101%) contrast(96%);
+    float: left;
+    align-items: center;
+    margin-left: 6px;
 }
 
 #bbq-logo {
     filter: invert(62%) sepia(68%) saturate(3274%) hue-rotate(332deg) brightness(101%) contrast(96%);
+    float: left;
+    align-items: center;
+    margin-left: 6px;
 }
 
-#inputboxes {
-    border-color: white;
+#top-input {
+    border-bottom: 2px #cccccc solid;
 }
 
 #findafoodbutton {
@@ -95,16 +109,21 @@ main {
     border-radius: 5px;
     border: 0cm;
     color: aliceblue;
+    font-family: Lato;
     font-weight: 900;
     font: size 4em;
     padding: 15px;
 }
+
 /*green box ends*/
 
 
 /*How It Works*/
 #how-it-works-title {
     color: #fa7344;
+    text-align: center;
+    font-family: intro;
+    font-size: 2rem;
 }
 
 .instrucciones {
@@ -123,7 +142,7 @@ main {
 .textitos {
     text-align: justify;
     position: relative;
-        
+
 }
 
 #search {}
@@ -131,4 +150,7 @@ main {
 /*Dishes section*/
 #dishes-title {
     color: #fa7344;
+    text-align: center;
+    font-family: intro;
+    font-size: 2rem;
 }
