@@ -17,14 +17,14 @@
 
 
 html {
-    max-width: 286px;
+    min-width:min-content;
 }
 
 body {
     font-family: 'Lato', sans-serif;
 }
 
-/*header "YumYum starts here*/
+/*header "YumYum" starts here*/
 .container {
     display: flex;
     flex-direction: row;
@@ -48,11 +48,15 @@ body {
     margin-top: 20px;
 }
 
-/*Header ending*/
-
-#greypic {
-    margin: 0%;
+#menu {
+    filter: invert(53%) sepia(0%) saturate(0%) hue-rotate(255deg) brightness(96%) contrast(85%);    
 }
+
+#cartlogo {
+    filter: invert(53%) sepia(0%) saturate(0%) hue-rotate(255deg) brightness(96%) contrast(85%);    
+}
+
+/*Header ending*/
 
 main {
     width: 286px;
@@ -66,16 +70,24 @@ main {
     padding: 10px;
 }
 
-.white-box-form {background-color: white;
-                width: fit-content;
-                padding: 5px;
-                border-radius: 5px;
+.white-box-form {
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-#pin-logo {filter: invert(62%) sepia(68%) saturate(3274%) hue-rotate(332deg) brightness(101%) contrast(96%);    
+#pin-logo {
+    filter: invert(62%) sepia(68%) saturate(3274%) hue-rotate(332deg) brightness(101%) contrast(96%);
 }
 
-#bbq-logo {filter: invert(62%) sepia(68%) saturate(3274%) hue-rotate(332deg) brightness(101%) contrast(96%);}
+#bbq-logo {
+    filter: invert(62%) sepia(68%) saturate(3274%) hue-rotate(332deg) brightness(101%) contrast(96%);
+}
+
+#inputboxes {
+    border-color: white;
+}
 
 #findafoodbutton {
     margin-top: 2em;
@@ -85,11 +97,10 @@ main {
     color: aliceblue;
     font-weight: 900;
     font: size 4em;
-    ;
     padding: 15px;
 }
-
 /*green box ends*/
+
 
 /*How It Works*/
 #how-it-works-title {
@@ -98,20 +109,24 @@ main {
 
 .instrucciones {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
 .logos {
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    margin: 10px;
+    margin: 7px;
+    float: left;
 }
 
 .textitos {
-    text-align: left;
+    text-align: justify;
+    position: relative;
+        
 }
+
+#search {}
 
 /*Dishes section*/
 #dishes-title {
