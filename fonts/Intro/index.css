@@ -210,12 +210,20 @@ main {
 /*caja naranja starts*/
 .caja-naranja {background-image: linear-gradient(#fa7344, #ee3b51);
     color: #f5f5eb;
-    text-align: justify;
+    
+    margin: 2%;
     display: grid;
-    grid-template-columns: min-content;
-    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:center;
+    gap: 10px;
+    
+}
+
+#four-logos {
+    filter: invert(77%) sepia(21%) saturate(5723%) hue-rotate(348deg) brightness(95%) contrast(100%);
+    
 }
 
 .easy-online {
-    grid-area:initial;
+    grid-area: ;
 }
