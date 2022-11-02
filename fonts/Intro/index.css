@@ -173,7 +173,10 @@ main {
             white 55%,
             #969fa6 45%,
             #969fa6 100%);
+    justify-content: space-around;
 }
+
+
 
 .second-plate-box {
     width: 250px;
@@ -185,4 +188,21 @@ main {
             white 55%,
             #969fa6 45%,
             #969fa6 100%);
+}
+.third-plate-box {
+    width: 250px;
+    height: 400px;
+    border-radius: 5px;
+    margin: auto;
+    background: linear-gradient(to top,
+            white 0%,
+            white 55%,
+            #969fa6 45%,
+            #969fa6 100%);
+}
+
+#buy-now-button {
+    background-color: green;
+    border-radius: 5px;
+    color: #f5f5eb;
 }
