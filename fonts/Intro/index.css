@@ -22,7 +22,7 @@ html {
 
 body {
     font-family: Lato;
-    src:local(C:\Users\Manu\BOOTCAMP FACTORIA F5\yum-yum-ManuKovacicSG\fonts\Lato);
+    src: local(C:\Users\Manu\BOOTCAMP FACTORIA F5\yum-yum-ManuKovacicSG\fonts\Lato);
 }
 
 /*header "YumYum" starts here*/
@@ -143,7 +143,6 @@ main {
 .textitos {
     text-align: justify;
     position: relative;
-
 }
 
 /*Dishes section*/
@@ -204,26 +203,32 @@ main {
 #buy-now-button {
     background-color: green;
     border-radius: 5px;
+    border-color: green;
     color: #f5f5eb;
+
 }
 
 /*caja naranja starts*/
 .caja-naranja {background-image: linear-gradient(#fa7344, #ee3b51);
     color: #f5f5eb;
-    
-    margin: 2%;
+    min-width: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content:center;
+    grid-template-rows: auto;
     gap: 10px;
-    
+    padding: 10 px;
 }
 
 #four-logos {
     filter: invert(77%) sepia(21%) saturate(5723%) hue-rotate(348deg) brightness(95%) contrast(100%);
-    
+    align-items: center;
 }
 
 .easy-online {
-    grid-area: ;
+    float: inline-start;
+}
+#txt-easyonline {
+    text-align: justify;
+    padding: 10px;
+    display: inline-block;
 }
