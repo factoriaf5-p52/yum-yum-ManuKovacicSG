@@ -206,3 +206,16 @@ main {
     border-radius: 5px;
     color: #f5f5eb;
 }
+
+/*caja naranja starts*/
+.caja-naranja {background-image: linear-gradient(#fa7344, #ee3b51);
+    color: #f5f5eb;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: min-content;
+    justify-content: space-around;
+}
+
+.easy-online {
+    grid-area:initial;
+}
